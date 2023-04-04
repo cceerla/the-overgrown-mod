@@ -1,9 +1,9 @@
 ﻿{
-	"id": "author.slugtemplate",
-	"name": "Slugcat Template",
-	"version": "0.1.0",
-	"authors": "Author",
-	"description": "A template for making SlugBase mods.",
+	"id": "clarisetg.overgrown",
+	"name": "Overgrown",
+	"version": "0.0.5",
+	"authors": "ClariseTG",
+	"description": "Adds the Overgrown and Botanist slugcats.",
 	"requirements": [ "slime-cubed.slugbase" ],
 	"requirements_names": [ "SlugBase" ]
 }

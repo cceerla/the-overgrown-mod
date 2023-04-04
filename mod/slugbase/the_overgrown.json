@@ -1,0 +1,55 @@
+{
+	"id": "Overgrown",
+	"name": "The Overgrown",
+	"description": "The rotbeast.<LINE>A little confused, but she's got the spirit.",
+	"features": {
+		"color": "947262",
+		"custom_colors": [
+			{
+				"name": "Body",
+				"story": "948e8b"
+			},
+			{
+				"name": "Eyes",
+				"story": "f7822f"
+			}
+
+
+		],
+		"weight": 1.2,
+		"walk_speed": 0.9,
+		"throw_skill": 0,
+		"lung_capacity": 2,
+		"alignments": {
+			"DaddyLongLegs": {
+				"like": 1.0,
+				"locked": true
+			},
+			"BrotherLongLegs": {
+				"like": 1.0,
+				"locked": true
+			},
+			"TerrorLongLegs": {
+				"like": 1.0,
+				"locked": true
+			}
+		},
+		"diet": {
+			"base": "Spear"
+		},
+		"karma": 2,
+		"karma_cap": 4,
+		"start_room": [ "RM_LC03", "LF_H01" ],
+		"food_min": 5,
+		"food_max": 7,
+		"world_state": "Rivulet",
+
+		"slugtemplate/super_jump": 0.5,
+		"slugtemplate/explode_on_death": true,
+		"slugtemplate/mean_lizards": 0.8,
+
+		"select_menu_scene": "Slugcat_Overgrown",
+		"select_menu_scene_ascended": "Ghost_Overgrown"
+
+	}
+}
